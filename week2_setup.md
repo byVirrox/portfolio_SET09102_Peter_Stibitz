@@ -7,6 +7,20 @@ The main requirements are to show that:
 1. Your development environment is correctly set up
 2. You understand the setup including potential alternative configuration settings
 
+This weeks praktical invoved setting up Visual Studio, a repository for TEAM RED
+as well as this portfolio on GitHub as well as setting up a buddy system to
+fill out possible knowlege gaps i the Team in the fields of C# or GitHub. 
+
+**Note to C#**
+In my Case I have partnered up with Zsombor, because I don't have any experience with C#
+yet and rather come out of the Java-Cosmos. THere are also two Chanells in our 
+Discord-Server, where Team member can commit questions to C# and GitHub and other Team 
+meber can help. 
+
+
+
+
+
 ## Environment configuration
 
 Here, you should include appropriate screenshots with additional commentary. 
