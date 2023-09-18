@@ -31,8 +31,8 @@ in othe OS such as Mac or Linux Distributions)
   1. (This step can later on be skipped) Using the provided [template](https://github.com/edinburgh-napier/SET09102_portfolio/tree/main) 
      and copy the repository 
   2. Now clone the repository into a appropriate folder by either using VS with the provided 
-     [https code](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz.git) or cd to the folder in your console and use the command git clone 
-     https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz.git 
+     [https code](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz.git) or cd to the folder in your console and use the command *git clone 
+     https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz.git*
   3. In case you used git clone, just open the folder in the starting Menu of VS
 
 ** Setup Team Repository ** 
@@ -43,14 +43,14 @@ in othe OS such as Mac or Linux Distributions)
     the MAUI-project and so on.)
    1. Go into VS, create a new Project and select .NET MAUI-App as the template
    2. There are many options but one would be to direct in cmd to
-      the location of the project and use git init and add + commit the files.
+      the location of the project and use $ git init and *$ git add .* and  *git commit -m "First commit"*.
    3. Go on GitHub and create a new empty repository
    4. In cmd cd now to the specified folder of your project and use 
-    git remote add origin <REMOTE_URL>
-# Sets the new remote
-$ git remote -v
-# Verifies the new remote URL
-$ git push origin main
+    *git remote add origin <REMOTE_URL>*
+Sets the new remote
+*$ git remote -v*
+Verifies the new remote URL
+*$ git push origin main*
 # Pushes the changes in your local repository up to the remote repository you specified as the origin
 
 ([source](https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github))
@@ -58,7 +58,7 @@ $ git push origin main
   5. In case you need to set it up elsewhere, again or on a team members system simply 
      Clone the Team-repository into a appropriate folder by either using VS with the provided 
      [https code](https://github.com/Software-Engineering-Red/MAUI-APP.git) or cd to the folder in your console and use the command 
-     git clone https://github.com/Software-Engineering-Red/MAUI-APP.git
+     *git clone https://github.com/Software-Engineering-Red/MAUI-APP.git*
   6. In case you used git clone, just open the folder in the starting Menu of VS
 
 
@@ -120,9 +120,6 @@ code, so you just have to copy it by clicking the copy button. </ins>
   configuration page if those values are clearly visible in the screenshot.
 
 ## Reflection
-
-For this section, decide what points are worth making and structure your content 
-appropriately.
 
 
 **Note to C#**
