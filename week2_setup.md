@@ -69,7 +69,7 @@ $ git push origin main
 Here, you should include appropriate screenshots with additional commentary. 
 
 
-| ![Screenshot1.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/Screenshot1.png) |
+| ![Screenshot1.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/week2_SetupVS.png) |
 |:--:|
 | <b>Fig.1 - VS-Installer Workload Options</b>|
 
@@ -78,21 +78,21 @@ Here, you should include appropriate screenshots with additional commentary.
   you would need to install these in the Installer later on additionally. 
   (for Example Python, the Unity Engine, Azure, Node-JS, Linux in combination with C++ etc.) </ins>
 
-| ![Screenshot1.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/Screenshot1.png) |
+| ![Screenshot1.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/week2_Extentions.png) |
 |:--:|
 | <b>Fig.2 - VS-Extensions</b>|
 
 <ins> There can be futher Tools obtained which will enhance the workflow. By going to Extensions
   and than searching the marketplace. These will not provide new features that add to
   the possible workload, but rather support you during the coding (for example Code-Completions
-  for different languages) </ins>
+  for different languages). </ins>
 
-| ![Screenshot1.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/Screenshot1.png) |
+| ![Screenshot1.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/week2_GitHub_clone.png) |
 |:--:|
 | <b>Fig.3 - GitHub https</b>|
 
 <ins>In almost any case you will find the necessary https URL to copy a repo under 
-code and the you just have to copy it by clicking the copy button </ins>
+code, so you just have to copy it by clicking the copy button. </ins>
   
 
 
