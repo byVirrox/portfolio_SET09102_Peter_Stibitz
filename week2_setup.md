@@ -39,12 +39,12 @@ in othe OS such as Mac or Linux Distributions)
       the location of the project and use $ git init and *$ git add .* and  *git commit -m "First commit"*.
    3. Go on GitHub and create a new empty repository
    4. In cmd cd now to the specified folder of your project and use 
-    *git remote add origin <REMOTE_URL>*
-Sets the new remote
-*$ git remote -v*
-Verifies the new remote URL
-*$ git push origin main*
-Pushes the changes in your local repository up to the remote repository you specified as the origin
+* *git remote add origin <REMOTE_URL>*
+* Sets the new remote
+* *$ git remote -v*
+* Verifies the new remote URL
+* *$ git push origin main*
+* Pushes the changes in your local repository up to the remote repository you specified as the origin
 
 ([source](https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github))
     
@@ -59,7 +59,7 @@ Pushes the changes in your local repository up to the remote repository you spec
 
 ## Environment configuration
 
-Here, you should include appropriate screenshots with additional commentary. 
+These may give a clue what to look out for during the setup. 
 
 
 | ![Screenshot1.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/week2_SetupVS.png) |
