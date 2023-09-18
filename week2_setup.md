@@ -69,7 +69,7 @@ $ git push origin main
 Here, you should include appropriate screenshots with additional commentary. 
 
 
-| ![Screenshot1.png](../images/Screenshot1.png) |
+| ![Screenshot1.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/Screenshot1.png) |
 |:--:|
 | <b>Image Credits - Fig.2 - 4K Mountains Wallpaper</b>|
 
