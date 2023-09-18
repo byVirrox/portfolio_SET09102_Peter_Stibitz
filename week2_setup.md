@@ -69,6 +69,9 @@ $ git push origin main
 Here, you should include appropriate screenshots with additional commentary. 
 
 
+| ![Screenshot1.png](../images/Screenshot1.png) |
+|:--:|
+| <b>Image Credits - Fig.2 - 4K Mountains Wallpaper</b>|
 
 * The current configuration is appropriate for developing a Application with MAUI.
   That is why the 
