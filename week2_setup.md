@@ -62,7 +62,7 @@ in othe OS such as Mac or Linux Distributions)
 These may give a clue what to look out for during the setup. 
 
 
-| ![Screenshot1.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/week2_SetupVS.png) |
+| ![week2_SetupVS.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/week2_SetupVS.png) |
 |:--:|
 | <b>Fig.1 - VS-Installer Workload Options</b>|
 
@@ -71,7 +71,7 @@ These may give a clue what to look out for during the setup.
   you would need to install these in the Installer later on additionally. 
   (for Example Python, the Unity Engine, Azure, Node-JS, Linux in combination with C++ etc.) </ins>
 
-| ![Screenshot1.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/week2_Extentions.png) |
+| ![week2_Extentions.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/week2_Extentions.png) |
 |:--:|
 | <b>Fig.2 - VS-Extensions</b>|
 
@@ -80,7 +80,7 @@ These may give a clue what to look out for during the setup.
   the possible workload, but rather support you during the coding (for example Code-Completions
   for different languages). </ins>
 
-| ![Screenshot1.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/week2_GitHub_clone.png) |
+| ![week2_GitHub_clone.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/week2_GitHub_clone.png) |
 |:--:|
 | <b>Fig.3 - GitHub https</b>|
 
