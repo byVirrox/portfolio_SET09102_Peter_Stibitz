@@ -103,32 +103,31 @@ Here are a few examples provided to demonstrate some aspects of the workflow:
 |:--:|
 | <b>Fig.1 - Assigning an Issue</b>|
 
-1. <ins>By clicking on the gear next to assignee you can assing the issue to someone out of your team</ins>
-2. <ins>Through Labels you can provide futher information concernig that task. They can also be changed by the gear.</ins>
-3. <ins>When picking a Task, you should always keep on updating your status to according to your progress:
-   (The status can take teh following values: Todo, In Progress, In Review, Done)</ins>
+1. By clicking on the gear next to assignee you can assign the issue to someone out of your team
+2. Through Labels you can provide further information concerning that task. They can also be changed by the gear.
+3. When picking a Task, you should always keep on updating your status to according to your progress:
+   (The status can take teh following values: Todo, In Progress, In Review, Done)
 
 
 | ![week3_CommitMessage.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/week3_CommitMessage.png) |
 |:--:|
 | <b>Fig.2 - Example of a commit Message</b>|
 
-<ins>
-	A Commit Message should always be short so that you and your team members can read identify the right 
-	commit in case your cherry picking or serching for the cause of an issue. Nevertheless the message should
-	indicate cleary and precisly what has been done, where and maybe even why 
-</ins>
+
+A Commit Message should always be short so that you and your team members can read identify the right 
+commit in case your cherry picking or serching for the cause of an issue. Nevertheless the message should
+indicate cleary and precisly what has been done, where and maybe even why 
 
 
 | ![week3_Pull_Request.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/week3_Pull_Request.png) |
 |:--:|
 | <b>Fig.3 - Example of my Pull Request</b>|
 
-<ins>
-	Pull-Request (PR) are there to ensure that more than one developer has read through the code before pushing/merging it to a develop Branch. 
-	Otherwise issues can easyly go under and will sneak into the code of your colleagues. iT also prevents someone from accidentaly destroying
-	something on the develop/ main branch which slows down the workflow.
-</ins>
+
+Pull-Request (PR) are there to ensure that more than one developer has read through the code before pushing/merging it to a develop Branch. 
+Otherwise issues can easyly go under and will sneak into the code of your colleagues. iT also prevents someone from accidentaly destroying
+something on the develop/ main branch which slows down the workflow.
+
 
 ## Reflection
 
