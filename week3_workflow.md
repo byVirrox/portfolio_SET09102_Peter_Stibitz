@@ -40,7 +40,7 @@ Our workflow goes as following [link to the original](https://github.com/Softwar
  **Workflow in GitHub**
 
  In GitHub you can find several captions in the taskbar in the Repo of the Team. 
- One of them being the <ins>issues<ins>. Here you will find all tasks/issues.
+ One of them being the <ins>issues</ins>. Here you will find all tasks/issues.
  You can assign them to yourself by clicking onto one of the issues, which doesn't
  have a Profile Picture in the right corner, indicating it is already assigned to someone.
  Then you can assign it to yourself. After that you should change it's status to in Progress.
