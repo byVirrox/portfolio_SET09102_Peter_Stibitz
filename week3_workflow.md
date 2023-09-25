@@ -47,30 +47,30 @@ Our workflow goes as following [link to the original](https://github.com/Softwar
  Then you can assign it to yourself. After that you should change it's status to in Progress.
  
  In my case this was the [issue number #14](https://github.com/Software-Engineering-Red/MAUI-APP/issues/14):
- <details><summary>As a system administrator, I want to maintain reference values for operational team statuses</summary>
+ > <details><summary>As a system administrator, I want to maintain reference values for operational team statuses</summary>
+ >
+ > **End user goal:**
+ > To be able to list, create, update and delete reference values for operational team statuses
+ >
+ > **End business goal:**
+ > To have appropriate statuses available to describe an operational team (e.g. 'requested', 'confirmed', 'active', etc.)
+ > 
+ > **Acceptance criteria:**
+ >
+ > * An operational team status item can be created, viewed, updated and deleted (CRUD functionality)
+ >
+ > **Measurement of success:**
+ >
+ > * Unit tests pass for all CRUD operations
+ >
+ > **Notes:**
+ >
+ > * The database table will be called `operational_team_status`
+ > * The table will have a single column, `name`
+ > </details>
 
-**End user goal:**
-To be able to list, create, update and delete reference values for operational team statuses
 
-**End business goal:**
-To have appropriate statuses available to describe an operational team (e.g. 'requested', 'confirmed', 'active', etc.)
-
-**Acceptance criteria:**
-
-* An operational team status item can be created, viewed, updated and deleted (CRUD functionality)
-
-**Measurement of success:**
-
-* Unit tests pass for all CRUD operations
-
-**Notes:**
-
-* The database table will be called `operational_team_status`
-* The table will have a single column, `name`
-</details>
-
-
- Furthermore you should now create a Branch, which is named according to the workflow convention (*feature/MAUI-APP#14*).
+ Furthermore you should now create a Branch, which is named according to the workflow convention (`feature/MAUI-APP#14`).
  Checkout on this branch and try to regularly make commits whilst working on your task.
 
  I will not go into detail about the process of working on the task.
@@ -81,10 +81,10 @@ To have appropriate statuses available to describe an operational team (e.g. 're
  It can following the Acceptance Criteria create, update, view and delete
  an operational team status. (This is displayed down below)
 
- After that I set a Pull Request to merge into the *develop-branch*.
+ After that I set a Pull Request to merge into the `develop-branch`.
 
  Whilst it meets the Aceptance Critera it is missing an appropriate Unit-Test to meet the DoD yet.
- (I will add it as soon as possible) 
+ (*I will add it as soon as possible*) 
 
  **Commit Messages** 
 
