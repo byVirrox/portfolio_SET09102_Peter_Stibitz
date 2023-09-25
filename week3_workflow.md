@@ -99,7 +99,7 @@ Our workflow goes as following [link to the original](https://github.com/Softwar
 
 Here are a few examples provided to demonstrate some aspects of the workflow:
 
-| ![week2_SetupVS.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/week2_SetupVS.png) |
+| ![week2_SetupVS.png]() |
 |:--:|
 | <b>Fig.1 - VS-Installer Workload Options</b>|
 
