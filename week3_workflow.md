@@ -17,7 +17,7 @@ The second one gave ashort introduction to SQLite and how to integrate it into a
 * [Notes Application](https://learn.microsoft.com/en-us/dotnet/maui/tutorials/notes-app/)
 * [Adding a databse](https://learn.microsoft.com/en-us/dotnet/maui/data-cloud/database-sqlite)
 
-** Workflow as a case study** 
+** Team-Workflow ** 
 
 Our workflow goes as following [link to the original](https://github.com/Software-Engineering-Red/MAUI-APP/blob/master/Documentation/workflow.md):
 
@@ -37,7 +37,7 @@ Our workflow goes as following [link to the original](https://github.com/Softwar
 > - All review comments have been correctly responded to and addressed if required
 > - Procedure for updating a task: - Any additional information should be added in comments on the issue itself with as much detail as possible available to the assigned programmer
 
- **Workflow in GitHub**
+ ** Workflow in GitHub as a case study **
 
  In GitHub you can find several captions in the taskbar in the Repo of the Team. 
  One of them being the <ins>issues</ins>. Here you will find all tasks/issues.
