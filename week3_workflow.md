@@ -44,7 +44,8 @@ Our workflow goes as following [link to the original](https://github.com/Softwar
  One of them being the <ins>issues</ins>. Here you will find all tasks/issues.
  You can assign them to yourself by clicking onto one of the issues, which doesn't
  have a Profile Picture in the right corner, indicating it is already assigned to someone.
- Then you can assign it to yourself. After that you should change it's status to in Progress.
+ Then you can chose one and assign it to yourself. (In this case it is not necessary but you of course you should always chose the most urgent task)
+ After that you should change it's status to in Progress.
  
  In my case this was the [issue number #14](https://github.com/Software-Engineering-Red/MAUI-APP/issues/14):
  > <details><summary>As a system administrator, I want to maintain reference values for operational team statuses</summary>
@@ -98,7 +99,14 @@ Our workflow goes as following [link to the original](https://github.com/Softwar
 
 Here are a few examples provided to demonstrate some aspects of the workflow:
 
+| ![week2_SetupVS.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/week2_SetupVS.png) |
+|:--:|
+| <b>Fig.1 - VS-Installer Workload Options</b>|
 
+<ins>The current configuration is appropriate for developing a Application with MAUI.
+  But in case you would like to work with different languages/ frameworks/ Engines 
+  you would need to install these in the Installer later on additionally. 
+  (for Example Python, the Unity Engine, Azure, Node-JS, Linux in combination with C++ etc.) </ins>
 
 
 by clicking on the gear next to 
