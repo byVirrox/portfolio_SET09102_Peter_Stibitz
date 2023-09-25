@@ -99,41 +99,38 @@ Our workflow goes as following [link to the original](https://github.com/Softwar
 
 Here are a few examples provided to demonstrate some aspects of the workflow:
 
-| ![week2_SetupVS.png]() |
+| ![week3_AssigneIssue.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/week3_AssigneIssue.png) |
 |:--:|
-| <b>Fig.1 - VS-Installer Workload Options</b>|
+| <b>Fig.1 - Assigning an Issue</b>|
 
-<ins>The current configuration is appropriate for developing a Application with MAUI.
-  But in case you would like to work with different languages/ frameworks/ Engines 
-  you would need to install these in the Installer later on additionally. 
-  (for Example Python, the Unity Engine, Azure, Node-JS, Linux in combination with C++ etc.) </ins>
+<ins>
+	1. By clicking on the gear next to assignee you can assing the issue to someone out of your team
+	2. Through Labels you can provide futher information concernig that task. They can also be changed by the gear.
+	3. When picking a Task, you should always keep on updating your status to according to your progress:
+	   (The status can take teh following values: Todo, In Progress, In Review, Done)
+</ins>
 
 
-by clicking on the gear next to 
- assignee and selecting your account.
+| ![week3_CommitMessage.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/week3_CommitMessage.png) |
+|:--:|
+| <b>Fig.2 - Example of a commit Message</b>|
 
-Here, you should use screenshots and descriptive commentary to show that the required
-have been completed successfully.
+<ins>
+	A Commit Message should always be short so that you and your team members can read identify the right 
+	commit in case your cherry picking or serching for the cause of an issue. Nevertheless the message should
+	indicate cleary and precisly what has been done, where and maybe even why 
+</ins>
 
-**DO**
 
-* Consider the layout of your content from the point of view of the reader. Many raw
-  screenshots will take up a lot of space. It may be better to adopt a different strategy
-  such as
-  * Using thumbnails with links to full-size images
-  * Combining two or more screenshots into a single image 
-  * Using partial screenshots to highlight only the important information
-  * etc.
-* Provide links to the actual objects (e.g. task, pull request, etc.) in the team project
-  in GitHub
-* Read through your work to make sure that the information comes across clearly
+| ![week3_Pull_Request.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/week3_Pull_Request.png) |
+|:--:|
+| <b>Fig.3 - Example of my Pull Request</b>|
 
-**DON'T**
-
-* Use humour or informal language
-* Waste space with trivial or self-evident commentary
-* Abbreviate your commentary using (e.g. by using bullet points). Your text should be in
-  the form of grammatically correct sentences.
+<ins>
+	Pull-Request (PR) are there to ensure that more than one developer has read through the code before pushing/merging it to a develop Branch. 
+	Otherwise issues can easyly go under and will sneak into the code of your colleagues. iT also prevents someone from accidentaly destroying
+	something on the develop/ main branch which slows down the workflow.
+</ins>
 
 ## Reflection
 
