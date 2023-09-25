@@ -103,12 +103,10 @@ Here are a few examples provided to demonstrate some aspects of the workflow:
 |:--:|
 | <b>Fig.1 - Assigning an Issue</b>|
 
-<ins>
-	1. By clicking on the gear next to assignee you can assing the issue to someone out of your team
-	2. Through Labels you can provide futher information concernig that task. They can also be changed by the gear.
-	3. When picking a Task, you should always keep on updating your status to according to your progress:
-	   (The status can take teh following values: Todo, In Progress, In Review, Done)
-</ins>
+1. <ins>By clicking on the gear next to assignee you can assing the issue to someone out of your team</ins>
+2. <ins>Through Labels you can provide futher information concernig that task. They can also be changed by the gear.</ins>
+3. <ins>When picking a Task, you should always keep on updating your status to according to your progress:
+   (The status can take teh following values: Todo, In Progress, In Review, Done)</ins>
 
 
 | ![week3_CommitMessage.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/week3_CommitMessage.png) |
