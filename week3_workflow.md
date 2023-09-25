@@ -17,7 +17,7 @@ The second one gave ashort introduction to SQLite and how to integrate it into a
 * [Notes Application](https://learn.microsoft.com/en-us/dotnet/maui/tutorials/notes-app/)
 * [Adding a databse](https://learn.microsoft.com/en-us/dotnet/maui/data-cloud/database-sqlite)
 
-** Workflow ** 
+** Workflow as a case study** 
 
 Our workflow goes as following [link to the original](https://github.com/Software-Engineering-Red/MAUI-APP/blob/master/Documentation/workflow.md):
 
@@ -43,27 +43,65 @@ Our workflow goes as following [link to the original](https://github.com/Softwar
  One of them being the <ins>issues<ins>. Here you will find all tasks/issues.
  You can assign them to yourself by clicking onto one of the issues, which doesn't
  have a Profile Picture in the right corner, indicating it is already assigned to someone.
- Then you can assign it to yourself (or someone else) by clicking on the gear next to 
- assignee and selecting your account. 
+ Then you can assign it to yourself. After that you should change it's status to in Progress.
  
- In my case this was the issue number #13 
- Futhermore	you should now create a Branch which is named accoring to the workflow convention.
+ In my case this was the [issue number #14](https://github.com/Software-Engineering-Red/MAUI-APP/issues/14):
+ <details><summary>As a system administrator, I want to maintain reference values for operational team statuses</summary>
+
+**End user goal:**
+To be able to list, create, update and delete reference values for operational team statuses
+
+**End business goal:**
+To have appropriate statuses available to describe an operational team (e.g. 'requested', 'confirmed', 'active', etc.)
+
+**Acceptance criteria:**
+
+* An operational team status item can be created, viewed, updated and deleted (CRUD functionality)
+
+**Measurement of success:**
+
+* Unit tests pass for all CRUD operations
+
+**Notes:**
+
+* The database table will be called `operational_team_status`
+* The table will have a single column, `name`
+</details>
 
 
+ Furthermore you should now create a Branch, which is named according to the workflow convention (*feature/MAUI-APP#14*).
+ Checkout on this branch and try to regularly make commits whilst working on your task.
 
-The main requirements are to show that:
+ I will not go into detail about the process of working on the task.
+ In summary I created the Class/Type *Operational Team Status*,
+ after that created a UI with xaml interacting with a Service wich gives access to a local instance 
+ SQLite and provides a CRUD-interface to save different instances of *Operational Team Status*.
 
-1. You know how to use the workflow tools in GitHub
-2. You have successfully carried out the required operations which are:
-   * Accept a task from the project backlog
-   * Update the task information appropriately
-   * Update the task board appropriately
-   * Complete the development task on a feature branch
-   * Commit your changes with appropriate comments
-   * Check your work against the Definition of Done (DoD)
-   * Make a pull request
+ It can following the Acceptance Criteria create, update, view and delete
+ an operational team status. (This is displayed down below)
+
+ After that I set a Pull Request to merge into the *develop-branch*.
+
+ Whilst it meets the Aceptance Critera it is missing an appropriate Unit-Test to meet the DoD yet.
+ (I will add it as soon as possible) 
+
+ **Commit Messages** 
+
+ When it comes to commit Messages you should always keep an eye that they describe 
+ what you have done in short terms but precisely.
+ If I changed a function/method for a class I should provide info
+ over what method i edited, where (in which class) and in the best case why and how.
+
 
 ## Task workflow
+
+Here are a few examples provided to demonstrate some aspects of the workflow:
+
+
+
+
+by clicking on the gear next to 
+ assignee and selecting your account.
 
 Here, you should use screenshots and descriptive commentary to show that the required
 have been completed successfully.
@@ -90,10 +128,30 @@ have been completed successfully.
 
 ## Reflection
 
-Here, you should highlight any difficulties that you faced in completing the task, and
-how you resolved them.
+**Problems with C# and MAUI**
 
-You should also briefly discuss the current process and how it could be refined or
-improved in future iterations. For example, is the DoD adequate or too onerous? Is the
-current procedure for updating the task appropriate? Is the task board configured to
-work in an intuitive way?
+Although the syntax of Java and C# are pretty similiar,
+I am not used working with Generics. I will have to read a bit more into that Part of C#.
+
+Even though the tutorial provided a simpel introduction into MAUI I still feel like 
+I am lacking some concepts. For example at one time I wasn't able to access another class because it was not in my namespace.
+Also I still have no overview over xaml and the different UI-Elements and therefore oriented my UI on the MAUI-tutorial a lot.
+
+
+**Problems with SQLite**
+
+Overall I feel like I had the most struggle with SQLite. The tutorial provided didn't gave a short glimpse of one pattern 
+you can implement quickly, but I struggeled adjusting it, so it suits my purpose. 
+As well as with Generics, further reading will be necessary.
+
+**Intuitive VisualStudio and GitHub**
+
+I already worked with GitHub but up untill now never used Github internal Issues, but instead used Jira last Semester.
+Therefore compared to Jira it was very easy to asses a task and change it's status
+
+**Team communication** 
+
+When talking about this issue I can't deny that I somewhat contribute to this problem, because I still feel a bit awkward talking in a different language after a long time,
+but the team needs to use the Practical lessons more for Team internal communication instead of knowledge gathering. 
+Many people started working on their task on the weekend. But a distribution of tasks could have taken place earlier.
+It also felt like not everyone was included when creating the workflow, because most of it was agreed upon on discord,when could have easily been discussed in presence.
