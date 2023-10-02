@@ -16,6 +16,7 @@ in the following:
 
 
 **Code Sample with issues**
+
 ```cs
 public string GetPlayerStatus(Player player)
 {
@@ -48,6 +49,7 @@ public string GetPlayerStatus(Player player)
    want to implement stuff halfway, before they even need it. You rather should 
    design your system that you can extend it later on if needed but you should not
    leave dead code behind in that process.
+
 2. Here is an absolutely complicated if else statement:
    First you check whether your online after that you check if a player is in the current game, 
    then you go into an else case but again end up checking whether you have invitations from other plyers.
@@ -55,6 +57,7 @@ public string GetPlayerStatus(Player player)
    Maintainability and therefore readability are important factors when it comes to writing code.
    That is why you should keep the complexity of your code (such as switch cases return statements 
    around many methods or if, else statements) at a minimum.
+
 3. In practice there are [conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions#comment-style) formulated, which can help the reader and provide concistency.
    Your comment should begin in Uppercase and end on a period. But foremost it should provide
    the reader with [additional information](https://github.com/edinburgh-napier/SET09102/blob/main/notes/05_quality_code.md#comments) which helps him. That's not really the case here, because 
@@ -108,6 +111,7 @@ list of if statements beginning with the one which would contradict the rest. Th
 read and the reader can distinguish the different cases fast. 
 
 **Personal Note:**
+
 Overall the KISS principal is not only 
 applicable for code complexity, but for most tasks in Software Engineering.
 The people who will later on work with your product/system or maintain it won't have a good time,
