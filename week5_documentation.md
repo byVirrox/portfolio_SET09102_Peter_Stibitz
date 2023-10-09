@@ -13,7 +13,8 @@ This weeks three tasks were:
 ## Clean Code
 
 The first part of this will be a rewind of clean code rules, but this time how you would apply them to 
-our MAUI-project and how they helped me improve my code:
+our MAUI-project and how they helped me improve my code.
+In may case I worked on the issue of implementing a CRUD interface with UI for so called OperationalTeamStates:
 
 ### YAGNI 
 
@@ -248,6 +249,9 @@ content that is generated from your code to illustrate your explanation.
 Finally, highlight three examples from your code where you have eliminated the need
 for comments by adhering to the principles of clean code.
 
+## Doxygen Commentary 
+
+Our team 
 
 ## Eliminating the need of comments
 
@@ -256,21 +260,22 @@ by designing and describing things self explanatory. Because I didn't have to ma
 I will rather refer to the examples I made in the previous section.
 
 
-**Improved meaningful names**
+### Improved meaningful names
 
-Names play the most significant role in self explanatory code thereby 
+[Names](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/week5_documentation.md#dry) play the most significant role in self explanatory code thereby 
 acronyms should be avoided at any cost because other or you yourself might not 
 identify their meaning if they are picked randomly. 
 ```cs
         ltv_states.ItemsSource = states;
 ```
-With that said rather use full words that are readable
+With that said rather use full words that are readable.
+In this case you can now spot this variable as databinding to ListView easier.
 ```cs
 list_view_states.ItemsSource = states;
  ```
 
-**Encapsulation**
-So this example might be the most noticeable:
+### Encapsulation
+So this [example](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/week5_documentation.md#dry) might be the most noticeable:
 
 ```cs
     private void SaveButton_Clicked(object sender, EventArgs e)
@@ -292,15 +297,15 @@ So this example might be the most noticeable:
 
 By just taking the pieces of that code, that already provided smaller functionalities, and
 encapsulating them in methods, with short descriptive verb including names, everyone
-can fastly recognise what the method does.
+can quickly recognize what the method does.
 
 Reading it we see, that if in the case there is nothing yet selected we gonna create a new status element.
 If some status is selected right now, we update the status and at the end in any case reset the text and the selection.
 You could call this a summary of the methods previous functionality.
 
-**Outsourcing**
+### Outsourcing
 
-This also refers to a previous example:
+This also refers to a [previous example](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/week5_documentation.md#dry):
 ```cs
     private void reset_SelectedStatus_and_Text()
     {
