@@ -234,24 +234,33 @@ Therefore as I showed in my last example i encapsulated the three cases into the
 
 
 https://github.com/Software-Engineering-Red/MAUI-APP/blob/develop/Documentation/doxygen.md
-This section is related to your work on clean code and documentation in week 5.
-
-First, choose six rules of clean code and explain them. For each one,
-
-* Summarise the rule in your own words.
-* Provide an example from the code that you wrote in week 2 and then refined in week 4.
-* Explain how your code implements the rule. 
 
 Second, copy the doxygen comments from your code into your portfolio and provide some 
 descriptive commentary on their purpose and structure. Use screenshots showing the HTML 
 content that is generated from your code to illustrate your explanation.
 
-Finally, highlight three examples from your code where you have eliminated the need
-for comments by adhering to the principles of clean code.
 
-## Doxygen Commentary 
+## Doxygen 
 
-Our team 
+A big part of this weeks exercise was writing documentation in the for of comments.
+Documentation is crucial to project due to maintenance. If you work long term on a project
+things might get more complex, you might focus on other parts and forget about previous code or
+you have to introduce new people to your codebase. 
+For these cases we should take care of a persistent documentation.
+
+Our team agreed on the following [procedure](https://github.com/Software-Engineering-Red/MAUI-APP/blob/develop/Documentation/doxygen.md) to comment our code for doxygen.
+Part of the agreement is: 
+commenting every sort of module like classes methods 
+or instance variables so that it will show up in our [doxygen documentation](https://github.com/Software-Engineering-Red/MAUI-APP/tree/develop/Documentation/reference/html).
+
+We commented our own code independently and 
+I set up a doxygen configuration file for our team, let it generate the documentation and 
+provided the [configuration file](https://github.com/Software-Engineering-Red/MAUI-APP/blob/develop/Documentation/doxygen_config/Doxyfile) for the team in the doxygen_config-folder
+so that everyone is able to use the exact same configuration in case we want to make changes.
+
+I will cover one example out of my code base:
+
+
 
 ## Eliminating the need of comments
 
