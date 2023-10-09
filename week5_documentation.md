@@ -230,16 +230,6 @@ Therefore as I showed in my last example i encapsulated the three cases into the
     }
 ```
 
-
-
-
-https://github.com/Software-Engineering-Red/MAUI-APP/blob/develop/Documentation/doxygen.md
-
-Second, copy the doxygen comments from your code into your portfolio and provide some 
-descriptive commentary on their purpose and structure. Use screenshots showing the HTML 
-content that is generated from your code to illustrate your explanation.
-
-
 ## Doxygen 
 
 A big part of this weeks exercise was writing documentation in the for of comments.
