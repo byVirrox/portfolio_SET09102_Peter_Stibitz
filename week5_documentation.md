@@ -6,7 +6,7 @@ This weeks three tasks were:
 
 1. reviewing the code that had been written by yourself in week 3
 2. generating a set of documentation for the project
-3. reviewing someone else's code
+3. reviewing someone else's code (we set up a buddy system)
 4. updating the team documentation
 
 
@@ -258,9 +258,93 @@ I set up a doxygen configuration file for our team, let it generate the document
 provided the [configuration file](https://github.com/Software-Engineering-Red/MAUI-APP/blob/develop/Documentation/doxygen_config/Doxyfile) for the team in the doxygen_config-folder
 so that everyone is able to use the exact same configuration in case we want to make changes.
 
-I will cover one example out of my code base:
+I will cover one example out of my classes:
 
+**Navigation**
 
+| ![week5_navigation.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/week5_navigation.png?raw=true) |
+|:--:|
+| <b>Fig.2 - Overview of OperationalTeamStatusPage</b>|
+
+The Navigation through the documentation takes place through the above tabs. 
+Whereas **packages** has a folder overview, **class** provides differnt sorts of arragements 
+of the classes, interfaces etc. For example odering them in a list, indexing them as a dictionary 
+sorting them in a hierarchy or filtering.
+
+**Overview**
+
+| ![week5_doxygen_overview.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/week5_doxygen_overview.png?raw=true) |
+|:--:|
+| <b>Fig.2 - Overview of OperationalTeamStatusPage</b>|
+
+This doxygen page covers several aspects like a UML diagramm displaying the inheritance relation of the class,
+private and public methods, attributes and amore concrete view on some of the functions.
+
+**Inheritence-Diagram**
+
+| ![week5_Inheritence_Diagram.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/week5_Inheritence_Diagram.png?raw=true) |
+|:--:|
+| <b>Fig.3 - Inheritance diagram OperationalTeamStatusPage</b>|
+
+OperationalTeamStatusPage extends the ContentPage interface.
+
+**Functions**
+
+| ![week_5_functions.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/week_5_functions.png?raw=true) |
+|:--:|
+| <b>Fig.4 - Functions</b>|
+
+This section gives an overview over all methods including the constructor in the public member functions or all private 
+member functions. Under every Method header you can find a short summary that has been written in the code using XML elements 
+according to the [Documentation comment specification of .NET](https://learn.microsoft.com/en-gb/dotnet/csharp/language-reference/xmldoc/).
+
+**Attributes**
+
+| ![week5_attributes.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/week5_attributes.png?raw=true) |
+|:--:|
+| <b>Fig.5 - Attributes</b>|
+
+Every attribute has short term description to provide information about their purpose and what they reference.
+
+**Method Example**
+
+| ![week5_Method_example.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/week5_Method_example.png?raw=true) |
+|:--:|
+| <b>Fig.5 - Method Example</b>|
+
+Last but not least the lower section covers more complex member functions. 
+Therefore it also shows up additional info beyond the summary provided in the XML,
+relating to parameters or return values.
+In this case we only have void function so there is no additional info about return values.
+But we get know the parameter **sender** and **e**´.
+
+That's how the XML tags show up in the code commentary:
+
+```cs
+    /// <summary>
+    /// Saves current Element of OperationalTeamStatus to Database
+    /// unless string is empty. Creates new object if selectedStatus
+    /// is currently null and adds it to the database
+    /// through a clicking save button in the UI.
+    /// </summary>
+    /// <param name="sender">Object to be saved</param>
+    /// <param name="e">UI Event triggering Method call </param>
+    private void SaveButton_Clicked(object sender, EventArgs e)
+    {
+        if (String.IsNullOrEmpty(text_editor_status.Text)) return;
+
+        if (selectedStatus == null) 
+        {
+            createNewStatus();
+        }
+        else
+        {
+            updateStatus();
+        }
+
+        reset_SelectedStatus_and_Text();
+    }
+```
 
 ## Eliminating the need of comments
 
