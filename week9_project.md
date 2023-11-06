@@ -97,7 +97,7 @@ As I said last time, I also tried to improve writing tests. But I also noticed t
 But many of them were either Part of a Crud Interface where I struggle with the Package dependencies, or they included DisplayAllerts. Therefore, I could only really test the SkillRequest and their Constructor as well as getters and setters, which is clearly not a good Unit test.
 However there is a lesson to this which I will elaborte in the Reflection.
 
-| ![week9_Tests.png](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/week9_Tests.png?raw=true) |
+| ![week9_Tests.PNG](https://github.com/byVirrox/portfolio_SET09102_Peter_Stibitz/blob/main/images/week9_Tests.PNG?raw=true) |
 |:--:|
 | <b>Fig.1 - Overview of Tests</b>|
 
