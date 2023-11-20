@@ -191,4 +191,4 @@ But overall, I am pretty satisfied with my familiarisation with MVVM and applyin
 I really liked it, and it didn't even complicate my workflow but rather simplified it because the only thing I had to do different was to properly databind everything instead of always assigning the new values to the textFields, Pickers or entries.
 So, although I did not achieve my initial goal it felt really productive.
 
-And although I had some experience with MVVM through a Web-Dev Course at my home-university, this was the first time putting it into 
+And although I had some experience with MVVM through a Web-Dev Course at my home-university, this was the first time putting it into practice.
