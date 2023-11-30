@@ -50,8 +50,8 @@ public string GetPlayerStatus(Player player)
    design your system that you can extend it later on if needed but you should not
    leave dead code behind in that process.
 
-   What is strongly related is the code smell of dead code and it should be avoided to keep code that is not used anymore, because at the end it will only increase complexity.
-   Another similar code smell is Speculative Generality, where Developers write Code in the expectation that it will be needed later on, when in reality it sometimes never happens.
+   What is strongly related is the **code smell** of **dead code** and it should be avoided to keep code that is not used anymore, because at the end it will only increase complexity.
+   Another similar code smell is **Speculative Generality**, where Developers write Code in the expectation that it will be needed later on, when in reality it sometimes never happens.
 
 3. Here is an absolutely complicated if else statement:
    First you check whether your online after that you check if a player is in the current game, 
