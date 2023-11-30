@@ -306,7 +306,7 @@ Last but not least the lower section covers more complex member functions.
 Therefore it also shows up additional info beyond the summary provided in the XML,
 relating to parameters or return values.
 In this case we only have void function so there is no additional info about return values.
-But we get know the parameter **sender** and **e**´.
+But we get know the parameter **sender** and **e**Â´.
 
 That's how the XML tags show up in the code commentary:
 
@@ -338,7 +338,7 @@ That's how the XML tags show up in the code commentary:
 
 ## Eliminating the need of comments
 
-Here I want to present tree examples how I eliminated the need of commentary 
+Here I want to present three examples how I eliminated the need of commentary 
 by designing and describing things self explanatory. Because I didn't have to make a lot of changes
 I will rather refer to the examples I made in the previous section.
 
