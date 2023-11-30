@@ -219,10 +219,21 @@ Lastly I wanted to reflect upon the whole development process:
 First of for me I surely gained some experiences through learning different Code smells and applying Code principles or patterns like dependency Injection, ORM or MVVM.
 This definitely helped me improve my personal workflow. 
 
-### AI Support
-I would also like to point out that I am mostly used a combination of an AI-guided Development process through using ChatGPT. As I was an absolute beginner in C# and although it did not that much differ from 
-Java it helped me a lot using ChatGPT for solving minor problems and familiarizing myself with MAUI and everything surrounding it. I mostly constructed the bigger picture but it certainly helps using it as a guide of how to 
-implement some more detailed work or for just making recommendations on how to do something.
+### AI Support and CASE
+I would also like to point out that I am mostly used a combination of an AI-guided Development process through using ChatGPT in the enitre project. Computer-aided software engineering is very helpful and should not be seen as a thread rather than a tool.
+
+As I was an absolute beginner in C# and although it did not that much differ from 
+Java it helped me a lot using ChatGPT for solving minor problems and familiarizing myself with MAUI and everything surrounding it. I mostly constructed the bigger picture on a higher level but it certainly helps using it as a guide of how to 
+implement some more detailed work or for just making recommendations on how to do something. 
+
+Most of the time it first helped asking Chat GPT to imlement directly some sort of feature get an impression of the sollution and than decide whether that fits your intended functionality and whether it is clear what the code does. If it's not rephrase your prompt. If the functionality is given, but your not happy how chatGPT implemented it you either adjust the code or try to let ChatGPT to adjust its sollution.
+
+Either way just by using it the developer automatically will be confronted with new concepts of a language that he might have skipped if he just read the basic documentation of a framework.
+
+But the usage of a AI always requires you to know exactly what you are doing, what terms to use and how to efficiently tell the AI what to do. 
+
+And sometimes ou have already done something and either want to extract or to adjust something similar. You know how it would work, but it sometimes is just easier to safe your time and to generate it. It safes time, that you can use to think about more important aspects.
+
 
 ### Development process as a Team 
 I also would like to use this as a reflection and constructive criticism. I already worked on a Web App for a whole semester last year, so I have a bit of experience how to approach a project.
