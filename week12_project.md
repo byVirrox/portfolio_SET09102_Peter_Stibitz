@@ -3,7 +3,7 @@
 ## Introduction
 
 This is the last and final Week therefore I will try to cover as much as I can.
-I will go through a bit of an alternative problem solution to last week’s problem of creating a query and discuss downsides of ORM to casual SQL-Databases.
+I will go through a bit of an alternative problem solution to last weekâ€™s problem of creating a query and discuss downsides of ORM to casual SQL-Databases.
 After that I will include some MVVM dependency injection, and I will cover a bit of Testing.
 
 And in my Reflection, I will try to analyse our overall workflow and development process a bit. 
@@ -239,7 +239,20 @@ This especially lead to confusion at the beginning, but apart from some merging 
 What would have helped our Team a lot would have been a planning phase and a high-level planning of our App, to implement such things as a database-Manager early on and agree on a Design Pattern like MVVM, a folder layout for that.
 and in general, just sharing knowledge so that everyone would have for example used Dependency Injection from the beginning.
 
-As I said mostly I would lead most of the issues we had on the (size of the team)[https://www.artofteamwork.com/what-is-the-ideal-team-size/]. In smaller teams everyone gets his time to contribute and share something, but with rising size it gets more and more complicated to plan out things and find compromises and overall getting to know other team members really.
+As I said mostly I would lead most of the issues we had on the [size of the team](https://www.artofteamwork.com/what-is-the-ideal-team-size/). In smaller teams everyone gets his time to contribute and share something, but with rising size it gets more and more complicated to plan out things and find compromises and overall getting to know other team members really.
+
+### Requirement Engineering, Planning, Desiging
+What also was missging was properly thinking about requirements and than apply these requiremets though carefully designing some sort of **High-level-Design**. Although we were provided with the Entity Relationship Diagramm and therby at least had some sort of **Data structure design**, many team members did not follow allong. 
+Defining **User or System Requirements** is essential for finding **Abstract specification of each sub-system**
+We would not have used any **algorithm design**, but it would have been benifial to think about some sort of **Architectual Design and ComponentDesign** through using methods like:
+* Block Diagramms
+* UML Class Diagramms
+* or as a lightweight alternative the C4 Mdoel
+
+Really going ito detail will help a the overall development process because the tema is automatically going to appproach their tasks not as single issues but in the context of a larger scale,
+Additionally allthough that is not the focus it would have been better to do some **Interface Design** or rather think about how to standardise our USer interfaces. And you do not have to use Tools like Figma necessarily. Just use pen and paper and design a quick wireframe by using a hand drawing and thinking about what the user will need to clearly uderstand the component. 
+
+This poor planning or lack of communication also caused that noone would approach the task of some sort of Log-In service eventhough it's mostly just a standard feature almost any App has and it would not have been that difficult to implement (, if you not tottally serious about security).
 
 ### Conclusion 
 Although we had our flaws with our Workflow as a Team, we could make some progress and I personally learned a lot about C#, The .NET-World and could familiarise myself with many Aspects of Development, and overall gain a wider knowledge of applicable patterns for different Tasks and far and foremost Code-Quality in practice as different Code Principles (KISS, YAGNII ...) or guidelines to avoid certain mistakes.
