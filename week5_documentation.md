@@ -402,3 +402,8 @@ Here we had two repetitions, which are now combined in one method.
 Not only does it make the other two methods shorter, but it is also easier to read one 
 bit of method than two.
 
+# Reflection 
+
+Through enrolling the whole Doxygen process it took some time to do this weeks task. But overall I think through applying the Code Principles to my code I not only made improved my code but ratehr my understanding of of my code which was oriented from other teammebers through my lack of experience with C# And MAUI. 
+
+After going through my code, carefully reading and understanding it and than adding documentation, I was able to apply meaningful changes that improved the quality of my code.
