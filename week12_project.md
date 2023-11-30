@@ -87,6 +87,21 @@ The nice thing is that we can derive our Services and View Models always from th
 
 It is a really useful Design Pattern that probably would have helped me a lot earlier on.
 
+
+## Interface Segragation Principle
+
+```cs
+namespace UndacApp.Services
+{
+	public interface IOperationResourceRequestService : IService<OperationResourceRequest>
+	{
+		Task<int> ApproveRequest(OperationResourceRequest request);
+	}
+}
+```
+
+Here is An example I retospectifly added because it simply demostrates what the principle does. In basic Terms we want to seperate our interfaces and only include the methods we really need. In my case I allready inherited from the IService which represents basic CRUD-Interface functionalities and than implement an additional method which so only serves the pupose of accepting a request. It would not have made sense to implement it for each Service because not every Model represents a Request.
+
 # Tests 
 
 Someone fixed our building Problem by renaming the Resource Class into AResource. The main issue here was assumably that the compiler got confused because other included packages included Resource as a Class as well.
