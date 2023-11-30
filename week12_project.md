@@ -168,8 +168,10 @@ So, we first set Up everything. In this case I made a few Mock Services that wou
 
 Then we Act and execute the methods we would like to test.
 
-And at the end we check whether that was our inteded behaviour.
+And at the end we check whether that was our inteded behaviour. We assert.
 In this case we first check whether a result had been returned and than if we got in our case the expected two Resources inside of a List.
+
+In some cases we need a teardown meaning we clean the traces of our test not to influence the results of any other test.
 
 ## Review of my Code
 
