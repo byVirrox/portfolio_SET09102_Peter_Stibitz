@@ -173,13 +173,13 @@ In this case we first check whether a result had been returned and than if we go
 
 ## Review of my Code
 
-My Buddy (reviewed my code)[https://github.com/Software-Engineering-Red/MAUI-APP/pull/195] this week. He did not relly find any issues.
+My Buddy [reviewed my code](https://github.com/Software-Engineering-Red/MAUI-APP/pull/195) this week. He did not relly find any issues.
 
 ## Code Reviews
 
 This week there had been a lot less workload with regard to Code Reviews:
 
-There only had been a three behaviours I pointed out in my (buddies Pull Request)[https://github.com/Software-Engineering-Red/MAUI-APP/pull/196]:
+There only had been a three behaviours I pointed out in my [buddies Pull Request](https://github.com/Software-Engineering-Red/MAUI-APP/pull/196):
 ```cs
 	// Private fields for service instances and observable collections
     private EquipmentService Equipmentservice = new EquipmentService();
