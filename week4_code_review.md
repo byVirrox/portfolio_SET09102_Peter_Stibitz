@@ -50,7 +50,10 @@ public string GetPlayerStatus(Player player)
    design your system that you can extend it later on if needed but you should not
    leave dead code behind in that process.
 
-2. Here is an absolutely complicated if else statement:
+   What is strongly related is the code smell of dead code and it should be avoided to keep code that is not used anymore, because at the end it will only increase complexity.
+   Another similar code smell is Speculative Generality, where Developers write Code in the expectation that it will be needed later on, when in reality it sometimes never happens.
+
+3. Here is an absolutely complicated if else statement:
    First you check whether your online after that you check if a player is in the current game, 
    then you go into an else case but again end up checking whether you have invitations from other plyers.
    This is a example of [KISS](https://en.wikipedia.org/wiki/KISS_principle) (Keep it simple, Idiot).
@@ -58,7 +61,7 @@ public string GetPlayerStatus(Player player)
    That is why you should keep the complexity of your code (such as switch cases return statements 
    around many methods or if, else statements) at a minimum.
 
-3. In practice there are [conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions#comment-style) formulated, which can help the reader and provide concistency.
+4. In practice there are [conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions#comment-style) formulated, which can help the reader and provide concistency.
    Your comment should begin in Uppercase and end on a period. But foremost it should provide
    the reader with [additional information](https://github.com/edinburgh-napier/SET09102/blob/main/notes/05_quality_code.md#comments) which helps him. That's not really the case here, because 
    waiting is the consequence of not playing but being online. The best comments are the one's that aren't there.
@@ -119,3 +122,33 @@ if you overcomplicate things.
 People prefer simple solutions and it's genuinely harder to design a system that is simple
 than a complex one.
 
+# Internal Quality criteria
+
+This weeks task mostly covered the internal Quality criteria:
+* Acceptable names for variables, functions, classes, namespaces, etc.
+* Use of comments
+* Use of whitespace
+* Preferred methods where alternatives exist
+* Exception handling
+* etc.
+And there are futhermore code conventions...
+
+# External Quality criteria
+Futhermore we did not really get the chance to see any of the 5 mentioned traits of external quality, although they are really important for the requirements of a product, to ease either the customer/stakeholders. So I will include this for the sake of giving another view onto Quality in Software Development:
+ * Reliability
+ * Security
+ * Maintainability
+ * Portability
+ * Usability
+
+When I was developing an App last year at my home university, we had to develop User Stories on our own and futhermore focus on these aspect: 
+* Do we have an easy deployement process so that the App is accessable on our domain for our stakeholders/professors for most of the time? (Reliability)
+* Is the Data encrypted in the database? And can we provide a log-in? (Security)
+* How do we structure and document our code so that it is easier to maintain? Whats our folder layout for front and backend? How to stay consistent as a team of 5 individuals? (MAintainability)
+* Can we use Containerisation to roll out our system on another system? (Portability)
+* Is our system accessable for everyone? Is the design of our components intuitive? (Usability)
+
+# Reflection 
+I mostly was unsure of what to expect and how to exactly identify Code smells or the non-compliance with Code Principles in review task, because you had such a big variety of options and if you are asked to critiques somethig you are going to find something, because although part of these are clearly mistakes some part of your subjective view on code will allways play a role. Futhermore most of the given code samples were too simple to really represent the code.
+
+Overall I really tried to include a vast number of Principles here.
